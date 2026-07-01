@@ -6,19 +6,6 @@ from sklearn.preprocessing import PolynomialFeatures
 # -------------------------------
 # Load the trained model
 # -------------------------------
-"""with open("model.pickle", "rb") as f:
-    model = pickle.load(f)
-
-# Polynomial transformer (same degree used during training)
-poly = PolynomialFeatures(degree=2)
-
-# Fit on dummy data so transform() knows the feature structure
-dummy = pd.DataFrame({
-    "area": [1000],
-    "bedrooms": [2],
-    "bathrooms": [2]
-})
-poly.fit(dummy)"""
 with open("model.pickle", "rb") as f:
     model = pickle.load(f)
 
