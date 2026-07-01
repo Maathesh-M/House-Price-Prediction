@@ -9,6 +9,10 @@ A Machine Learning web application built using Polynomial Regression and Streaml
 - Polynomial Regression model
 - Scikit-learn implementation
 
+## 🚀 Live Demo
+
+👉 **https://house-price-prediction-bwrcen9qrwckapp8aeu74sc.streamlit.app/**
+
 ## Tech Stack
 
 - Python
